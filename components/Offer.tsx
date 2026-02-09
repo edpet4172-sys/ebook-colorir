@@ -64,7 +64,7 @@ const Offer: React.FC = () => {
             </ul>
 
             <a 
-              href="https://pay.kiwify.com.br/basico" 
+              href="https://pay.cakto.com.br/cuzs4ct_731108" 
               target="_blank"
               className="block w-full bg-slate-700 hover:bg-slate-600 text-white py-4 rounded-2xl font-bold text-xl text-center transition-all"
             >
@@ -113,7 +113,7 @@ const Offer: React.FC = () => {
             </ul>
 
             <a 
-              href="https://pay.kiwify.com.br/plus" 
+              href="https://pay.cakto.com.br/phhf74s_732699" 
               target="_blank"
               className="block w-full bg-orange-500 hover:bg-orange-600 text-white py-5 rounded-2xl font-black text-2xl text-center transition-all shadow-xl hover:shadow-orange-200 group-hover:scale-105 shadow-[0_10px_0_0_#c2410c] active:shadow-none active:translate-y-2"
             >
