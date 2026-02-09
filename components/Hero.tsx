@@ -9,11 +9,11 @@ const Hero: React.FC = () => {
           <div className="inline-block px-4 py-1 rounded-full bg-pink-100 text-pink-600 font-bold text-sm mb-6 animate-bounce">
             🎨 Diversão 100% Longe das Telas!
           </div>
-          <h1 className="text-4xl md:text-6xl font-extrabold text-slate-900 leading-tight mb-6">
-            <span className="text-orange-500 block mb-2">Menos Tela, Mais Criatividade!</span>
-            Desperte o Artista no seu Pequeno com <span className="text-blue-500">Aventuras Coloridas!</span>
+          <h1 className="text-5xl md:text-8xl font-black text-slate-900 leading-tight mb-8">
+            <span className="text-orange-500 block drop-shadow-sm">Menos Tela,</span>
+            <span className="text-orange-500 block drop-shadow-sm">Mais Criatividade!</span>
           </h1>
-          <p className="text-lg md:text-xl text-slate-600 mb-8 max-w-2xl">
+          <p className="text-lg md:text-xl text-slate-600 mb-8 max-w-2xl leading-relaxed">
             Mais de 50 desenhos exclusivos para colorir que estimulam a <strong>coordenação motora</strong>, o <strong>foco</strong> e a <strong>criatividade</strong> de crianças de 3 a 8 anos.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
@@ -41,12 +41,10 @@ const Hero: React.FC = () => {
               alt="E-book Aventuras Coloridas" 
               className="rounded-2xl w-full h-auto object-cover"
             />
-            {/* Overlay illustration placeholder */}
             <div className="absolute -bottom-6 -right-6 bg-orange-500 p-4 rounded-full shadow-lg border-4 border-white animate-pulse">
               <span className="text-3xl text-white">🖍️</span>
             </div>
           </div>
-          {/* Decorative Elements */}
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[120%] h-[120%] bg-blue-100 rounded-full blur-3xl -z-10 opacity-50"></div>
         </div>
       </div>
