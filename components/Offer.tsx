@@ -14,6 +14,11 @@ const Offer: React.FC = () => {
   const minutes = Math.floor(timeLeft / 60);
   const seconds = timeLeft % 60;
 
+  const themes = [
+    "Dinossauros 🦖", "Evangélica 🙏", "Bobbie Goods ✨", "Nostalgia 📺", 
+    "Cactos 🌵", "Frutas 🍎", "Animais 🐶"
+  ];
+
   return (
     <section id="oferta" className="py-24 bg-slate-900 text-white relative overflow-hidden">
       {/* Elementos decorativos de fundo */}
@@ -78,33 +83,36 @@ const Offer: React.FC = () => {
               MAIS VENDIDO ⭐
             </div>
             
-            <h3 className="text-2xl font-bold mb-2 text-slate-900">Pacote Plus</h3>
-            <p className="text-slate-500 mb-8">O conteúdo mais completo para seu filho</p>
+            <h3 className="text-2xl font-bold mb-2 text-slate-900">Mega Pacote Plus</h3>
+            <p className="text-slate-500 mb-8 font-bold">A maior biblioteca de colorir da internet</p>
             
             <div className="mb-8">
               <span className="text-slate-400 line-through text-lg">De R$ 67,00</span>
               <div className="flex items-start gap-1">
                 <span className="text-xl font-bold mt-2 text-orange-500">R$</span>
-                <span className="text-6xl font-black text-slate-900">24,90</span>
+                <span className="text-6xl font-black text-slate-900">18,90</span>
               </div>
             </div>
 
-            <ul className="space-y-4 mb-10 flex-grow text-slate-700">
+            <ul className="space-y-4 mb-8 flex-grow text-slate-700">
               <li className="flex items-center gap-3">
                 <div className="bg-orange-100 text-orange-600 p-1 rounded-full text-xs">✓</div>
-                <span className="font-bold">40 Imagens Exclusivas</span>
+                <span className="font-bold text-orange-600">Mais de 200 Imagens Exclusivas</span>
+              </li>
+              <li className="flex flex-wrap gap-2 py-2">
+                {themes.map((theme, i) => (
+                  <span key={i} className="text-[10px] font-bold bg-slate-100 px-2 py-1 rounded-md text-slate-600">
+                    {theme}
+                  </span>
+                ))}
               </li>
               <li className="flex items-center gap-3">
                 <div className="bg-yellow-100 text-yellow-600 p-1 rounded-full text-xs">🎁</div>
-                <span className="font-bold">+5 Desenhos de Bônus</span>
+                <span className="font-bold">+ Desenhos de Bônus Semanais</span>
               </li>
               <li className="flex items-center gap-3">
                 <div className="bg-orange-100 text-orange-600 p-1 rounded-full text-xs">✓</div>
-                <span>Guia de Atividades Extras</span>
-              </li>
-              <li className="flex items-center gap-3">
-                <div className="bg-orange-100 text-orange-600 p-1 rounded-full text-xs">✓</div>
-                <span>Acesso Vitalício</span>
+                <span>Acesso Vitalício & Atualizações</span>
               </li>
               <li className="flex items-center gap-3">
                 <div className="bg-orange-100 text-orange-600 p-1 rounded-full text-xs">✓</div>
@@ -117,7 +125,7 @@ const Offer: React.FC = () => {
               target="_blank"
               className="block w-full bg-orange-500 hover:bg-orange-600 text-white py-5 rounded-2xl font-black text-2xl text-center transition-all shadow-xl hover:shadow-orange-200 group-hover:scale-105 shadow-[0_10px_0_0_#c2410c] active:shadow-none active:translate-y-2"
             >
-              QUERO O PLUS! 🚀
+              QUERO AS 200+ IMAGENS! 🚀
             </a>
           </div>
         </div>

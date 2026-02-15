@@ -5,7 +5,7 @@ const benefits = [
   {
     icon: '🖍️',
     title: 'Adeus Tédio',
-    description: 'Mais de 50 páginas que prendem a atenção. O tempo de tela diminui naturalmente enquanto eles mergulham nas cores.',
+    description: 'Mais de 200 páginas que prendem a atenção. O tempo de tela diminui naturalmente enquanto eles mergulham nas cores.',
     tag: 'Foco & Calma',
     color: 'border-blue-200'
   },

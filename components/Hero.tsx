@@ -23,7 +23,7 @@ const Hero: React.FC = () => {
           </h1>
           
           <p className="text-xl text-slate-600 mb-10 max-w-xl leading-relaxed mx-auto lg:mx-0">
-            Chega de desenhos genéricos. Nossas ilustrações foram desenhadas à mão para encantar crianças e proporcionar <span className="font-bold text-slate-800">momentos de paz para os pais.</span>
+            Chega de desenhos genéricos. São <span className="font-bold text-pink-500">mais de 200 ilustrações</span> desenhadas para encantar crianças e proporcionar <span className="font-bold text-slate-800">momentos de paz para os pais.</span>
           </p>
           
           <div className="flex flex-col sm:flex-row gap-6 justify-center lg:justify-start items-center">
